@@ -93,6 +93,43 @@ vendor/lib64/camera/fdconfigvideo.bin
 vendor/lib64/camera/fdconfigvideolite.bin
 vendor/lib64/hw/camera.qcom.so
 
+# Display - from OnePlus 9R
+vendor/bin/hw/vendor.oneplus.hardware.display@1.0-service|87d7ce8cd0e180bcd8aa01f2416fbf18d8d3dd22
+vendor/etc/init/vendor.oneplus.hardware.display@1.0-service.rc|03b0c962b97fc6cfb99a6b4f838928e7de7e188d
+
+# Display (HDR) - from OnePlus 9R
+vendor/lib64/libhdr_tm.so|14635cd98456467c81978da902e644ee83dc86cb
+
+# Display (HWC) - from OnePlus 9R
+vendor/bin/hw/vendor.qti.hardware.display.composer-service|09c6c2a6c60182b67d579e8b7839bd6d8a4c58f9
+vendor/lib64/libsdmcore.so|0c58e5c40641f958cf1f19633a1333626284db82
+vendor/lib64/libsdmutils.so|e657238d635309045054832ca97de58399dd9833
+
+# Display (SDM) - from OnePlus 9R
+vendor/lib64/libdisplayqos.so|bcebd965c29e5cfbc64593b1dec1d64c3babf8ea
+vendor/lib64/libdisplayskuutils.so|945b1a761a11ecffea78de4b429f857973b1bf71
+vendor/lib64/libqseed3.so|34145a41496a3ade5ea2a3a4718998387e32e4e0
+vendor/lib64/libsdedrm.so|cc2be7fcc3719033c9ecaa91111f3fcca1379272
+vendor/lib64/libsdm-color.so|39bc2efef151052d6a8262c8428eb783e5272ec4
+vendor/lib64/libsdm-colormgr-algo.so|0a8cab76f8ff3cbd9d5e99e9303cea2c6e720719
+vendor/lib64/libsdm-diag.so|4552dd1f3c37a50bdbc94dd8c8ba8cd4c61f7cf7
+vendor/lib64/libsdm-disp-vndapis.so|62f49380c22d80a26b7a90ae73e828c0573a8941
+vendor/lib64/libsdmextension.so|1f93e4236467b296660a93652abb6bc28ced6aa5
+vendor/lib64/libtinyxml2_1.so|70cbe5d2a5529591f3195b7829a73bcf8229a620
+
+# Display postprocessing - from OnePlus 9R
+vendor/bin/hw/vendor.display.color@1.0-service|b1efa7d0bad20f36d9db9e44990a02b2a08b0908
+vendor/bin/ppd|c95374a5c5efb911f9bb954a2defda0f34b869fc
+vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
+vendor/lib64/libdisp-aba.so|38feb7a9ece2aa47ef5ca9640c29fbcde1ee1cd1
+vendor/lib64/vendor.display.color@1.0.so|b52e5dc3e2905595a91c7d3536a1803d6da9ec08
+vendor/lib64/vendor.display.color@1.1.so|c456489b81c4e8a77e28ab2377df55c6d0b2034e
+vendor/lib64/vendor.display.color@1.2.so|4a70eacc1587712bc33e8481d0cdb04be0f1da8d
+vendor/lib64/vendor.display.color@1.3.so|52b3eb1dc930ba242a816b7b0d1964a27911046e
+vendor/lib64/vendor.display.color@1.4.so|83114673045ecf5c55c65e5ed822f244637ed7b3
+vendor/lib64/vendor.display.color@1.5.so|3c818c27dacc694f4a219c936d0db6b99093faf1
+vendor/lib64/vendor.display.postproc@1.0.so|3b9d7512bf3897df788a49348b3f04ace63640d9
+
 # Fingerprint
 vendor/lib64/hw/goodix.fod.kona.so
 vendor/lib64/hw/goodix.g6.fod.kona.so
@@ -103,27 +140,46 @@ vendor/lib64/libgf_ud_hal.so
 vendor/lib64/libhvx_proxy_stub.so
 vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so
 
-# Iris
-vendor/bin/hw/vendor.pixelworks.hardware.display.iris-service
-vendor/etc/inparm/irissoft/inParm1.txt
-vendor/etc/inparm/irissoft/inParm10.txt
-vendor/etc/inparm/irissoft/inParm11.txt
-vendor/etc/inparm/irissoft/inParm12.txt
-vendor/etc/inparm/irissoft/inParm13.txt
-vendor/etc/inparm/irissoft/inParm14.txt
-vendor/etc/inparm/irissoft/inParm15.txt
-vendor/etc/inparm/irissoft/inParm16.txt
-vendor/etc/inparm/irissoft/inParm17.txt
-vendor/etc/inparm/irissoft/inParm18.txt
-vendor/etc/inparm/irissoft/inParm2.txt
-vendor/etc/inparm/irissoft/inParm3.txt
-vendor/etc/inparm/irissoft/inParm4.txt
-vendor/etc/inparm/irissoft/inParm5.txt
-vendor/etc/inparm/irissoft/inParm6.txt
-vendor/etc/inparm/irissoft/inParm7.txt
-vendor/etc/inparm/irissoft/inParm8.txt
-vendor/etc/inparm/irissoft/inParm9.txt
-vendor/etc/irissoft.fw
+# Iris - from - OnePlus 9R
+vendor/bin/hw/vendor.pixelworks.hardware.display.iris-service|268ab959ac1202151581e84ec40df1359eb02ff8
+vendor/etc/inparm/irissoft/inParm1.txt|c30cf4b9713cd50599cc1a2946f51ede93b926e7
+vendor/etc/inparm/irissoft/inParm10.txt|84801d6e89452649d39ed6f7158df7accb76fc4a
+vendor/etc/inparm/irissoft/inParm11.txt|88c64706cf77a2d21c49580e9518c6fc12e1ed22
+vendor/etc/inparm/irissoft/inParm12.txt|cc9ee60b061acc869fa8ca5bed9113e6324483df
+vendor/etc/inparm/irissoft/inParm13.txt|90854a0909377e020a20be186f222ae812f526d7
+vendor/etc/inparm/irissoft/inParm14.txt|762423aa92665ac0143e75405bcc3b4f06ba8b4c
+vendor/etc/inparm/irissoft/inParm15.txt|bf7d160f20455eb4fe8df9b9f51eb4a6226d96ca
+vendor/etc/inparm/irissoft/inParm16.txt|fa103e8f3094e52083660ac41762870e7d072861
+vendor/etc/inparm/irissoft/inParm17.txt|0edd1362b84e0613676d4d4ceee3a0267721d6d8
+vendor/etc/inparm/irissoft/inParm18.txt|a4f02206543350dd1fa7412be6dbf850dd23e65b
+vendor/etc/inparm/irissoft/inParm2.txt|fee3218b0fd3f7d770a6e010128fb64a08c18178
+vendor/etc/inparm/irissoft/inParm3.txt|3b21b269edeef252f2910b9d2cb5b29b5e64ca4e
+vendor/etc/inparm/irissoft/inParm4.txt|123a5fbb0dca72d421c75a488faa47ec71edf9ce
+vendor/etc/inparm/irissoft/inParm5.txt|e788ff7ac6794ab18671a39ac2ec28851f06806c
+vendor/etc/inparm/irissoft/inParm6.txt|c0b94c9cf2a824869d1b4002b872161ee738a08d
+vendor/etc/inparm/irissoft/inParm7.txt|61ccf62395b58e96e18560d17c64b0ef41ee96e1
+vendor/etc/inparm/irissoft/inParm8.txt|e07b7c1554b5489d0f1e670d6dd6a17192125164
+vendor/etc/inparm/irissoft/inParm9.txt|6b41dafb6d1f6c69cb3e632ab2144507af98d992
+vendor/etc/irissoft.fw|ccfb5902e0838690bef7a86b39b82ff17bb2728d
+vendor/bin/hw/vendor.pixelworks.hardware.feature.irisfeature-service|59cc48cabb361a0d1e7edea78184cd6a76e04298
+vendor/etc/init/vendor.pixelworks.hardware.display.iris-service.rc|b1fdaffcf7cfc2eb41c8030d085779b95600dced
+vendor/etc/init/vendor.pixelworks.hardware.feature.irisfeature-service.rc|ba2a30c457151c6af8881b18886f80a26d1881f1
+vendor/etc/inparm/irissoft/mcfCheck.txt|6a08bb530c891b7393c614d23ee95152da3e7ed8
+-vendor/etc/vintf/manifest/vendor.pixelworks.hardware.display.iris-service.xml|a2ce7558c9b75f223c32120cf4d9f3a3720e12e0
+-vendor/etc/vintf/manifest/vendor.pixelworks.hardware.feature.irisfeature-service.xml|03e2bd611d843301566f053e77a544c9dfccb671
+vendor/lib64/libpwiriscalibrate.so|fac32eff5a1faedc76c61988b60799d304a85517
+vendor/lib64/libpwirisfeature.so|4ea3ca323c9e6493fb7d876273ed2fc2b7bbe4a9
+vendor/lib64/libpwirishalwrapper.so|34b3a59f9a0ff099c1fdc1125686d8ec60880504
+vendor/lib64/libpwirisIoctlWrapper.so|277010eec423f8606726a6c8a1c89e8cde7f764d
+vendor/lib64/libpwirisPCS.so|346cc45c16c72df58dd6fd0a859048c26f497ae5
+vendor/lib64/libpwirispq.so|448190d40daec0a396dbe7a271a4ad31e70d77ce
+vendor/lib64/libpwirisservice.so|d0fda0ace96e59bbd3cca68676a3acb56256a92b
+vendor/lib64/libpwirissoft.so|91382b099d53004abcafb5a6e8c933612a34338a
+vendor/lib64/libpwsnapdragoncolor.so|9310a46c9528e4a16d5965277e9cbe1a138d830e
+vendor/lib64/libpwsoftirisPCS.so|dfb9adabbc9d3427442bd77549041098c0f9fe25
+vendor/lib64/vendor.pixelworks.hardware.display@1.0.so|dcdd3ae93f32a6d6287162c2b2a4c1523b54c91b
+vendor/lib64/vendor.pixelworks.hardware.display@1.1.so|a0eb5fd330567c58615b52f0bae9cef1e6b85ecb
+vendor/lib64/vendor.pixelworks.hardware.feature@1.0.so|e3dff7fdb144069c70024b1f1eb8315bbf6d8363
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
