@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_instantnoodle.mk
+    $(LOCAL_DIR)/bsdk_instantnoodle.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_instantnoodle-user \
-    lineage_instantnoodle-userdebug \
-    lineage_instantnoodle-eng
+    bsdk_instantnoodle-user \
+    bsdk_instantnoodle-userdebug \
+    bsdk_instantnoodle-eng
